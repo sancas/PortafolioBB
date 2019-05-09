@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.fondo {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 0;
+	padding-top: 5vw;
+}
+
+#fondo1 {
+	background-image: url("../Imagenes/Fondo.png");
+	padding-bottom: 66.66%;
+}
+
+#fondo2 {
+	background-image: url("../Imagenes/fondo2.png");
+	padding-bottom: 375%
+}
+
+#aboutme, #Freelancer {
+	color: #999;
+	font-family: "robotomedium";
+	margin-bottom: 0;
+	font-size: 1vw;
+}
+
+#BrendaBautista {
+	color: #333;
+	font-family: "robotomedium";
+	font-size: 1vw;
+	margin-bottom: 1vw;
+}
+
+#portafolio {
+	font-family: "robotomedium";
+	color: #F9FBFC;
+	font-size: 1vw;
+	margin-top: 28vw;
+}
+
+.tituloProyecto {
+	font-size: 5vw;
+	font-family: "robotoregular";
+}
+
+.descripcionProyecto {
+	font-size: 1vw;
+	font-family: "robotoregular";
+}
+
+.EncuentraMas {
+	font-size: 1.2vw;
+	font-family: "robotomedium";
+	color: #842ECA;
+}
+
+.EncuentraMasBoton {
+	max-height: 1.2vw;
+}
+
+#proyecto2 {
+	margin-top: 3vw;
+}
+
+#proyecto3 {
+	margin-top: -10vw;
+}
+
+#proyecto3 {
+	margin-top: -38vw;
+}
+
+#ImagenProyecto1 {
+	background-image: url("../Imagenes/pantalla-02.png"); 
+	background-repeat: no-repeat; 
+	background-size: contain;
+	min-height: 40vw;
+	background-position-x: center;
+}
+
+#ImagenProyecto2 {
+	background-image: url("../Imagenes/smart-02.png"); 
+	background-repeat: no-repeat; 
+	background-size: contain;
+	min-height: 120vw;
+	background-position-x: right;
+}
+
+#ImagenProyecto3 {
+	background-image: url("../Imagenes/agenda-02.png"); 
+	background-repeat: no-repeat; 
+	background-size: contain;
+	min-height: 120vw;
+	background-position-x: left;
+	background-position-y: center;
+}
